@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <string name="fragmentLoginServerHost">Server Host: </string>
+    <string name="fragmentLoginServerPort">Server Port: </string>
+    <string name="fragmentLoginUserName">User Name: </string>
+    <string name="fragmentLoginPassword">Password: </string>
+    <string name="fragmentLoginFirstName">First Name: </string>
+    <string name="fragmentLoginLastName">Last Name: </string>
+    <string name="fragmentLoginEmail">Email: </string>
+    <string name="fragmentLoginGender">Gender: </string>
+    <string name="fragmentLoginMaleRadioButton">Male</string>
+    <string name="fragmentLoginFemaleRadioButton">Female</string>
+    <string name="fragmentLoginSignInButton">SIGN IN</string>
+    <string name="fragmentLoginRegisterButton">REGISTER</string>
+    <string name="fragmentLoginSyncErrorMessage">Couldn\'t Retrieve Data, Try Again</string>
+
+
+    <string name="tempLoginHostname">10.0.2.2</string>
+    <string name="tempLoginPortNumber">8080</string>
+    <string name="tempLoginUserName">etodd</string>
+    <string name="tempLoginPassword">password</string>
+    <string name="tempLoginFirstName">Eric</string>
+    <string name="tempLoginLastName">Todd</string>
+    <string name="tempLoginEmail">eric.w.todd@gmail.com</string>
+    <string name="tempLoginGender">m</string>
+
+    <string name="fragmentMapDefaultIcon">Default Marker</string>
+    <string name="fragmentMapDefaultTextTop">Click on a marker</string>
+    <string name="fragmentMapDefaultTextBottom">to see event details</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="settingsItem">Settings</string>
+    <string name="filterItem">Filter</string>
+    <string name="searchItem">Search</string>
+
+    <string name="maleIcon">{fa-male}</string>
+    <string name="femaleIcon">{fa-female}</string>
+    <string name="eventIcon">{fa-map-marker}</string>
+    <string name="searchIcon">{fa-search}</string>
+    <string name="filterIcon">{fa-filter}</string>
+    <string name="settingsIcon">{fa-gear}</string>
+    <string name="homeIcon">{fa-angle-double-up}</string>
+
+    <string name="personActivityLifeEvents">LIFE EVENTS</string>
+    <string name="personActivityFamily">FAMILY</string>
+    <string name="personActivityActionBarTitle">Family Map: Person Details</string>
+    <string name="personActivityMale">Male</string>
+    <string name="personActivityFemale">Female</string>
+    <string name="personActivityFirstNameTitle">FIRST NAME: \t  </string>
+    <string name="personActivityLastNameTitle"> LAST NAME: \t </string>
+    <string name="personActivityGenderTitle">   GENDER:  \t </string>
+
+
+    <string name="settingsActivityLifeStoryLines">Life Story Lines</string>
+    <string name="settingsActivityLifeStoryDescription">SHOW LIFE STORY LINES</string>
+    <string name="settingsActivityFamilyTreeLines">Family Tree Lines</string>
+    <string name="settingsActivityFamilyTreeDescription">SHOW TREE LINES</string>
+    <string name="settingsActivitySpouseLines">Spouse Lines</string>
+    <string name="settingsActivitySpouseLinesDescription">SHOW SPOUSE LINES</string>
+    <string name="settingsActivityMapType">Map Type</string>
+    <string name="settingsActivityMapTypeDescription">BACKGROUND DISPLAY ON MAP</string>
+    <string name="settingsActivityReSyncData">Re-sync Data</string>
+    <string name="settingsActivityReSyncDataDescription">FROM FAMILYMAP SERVICE</string>
+    <string name="settingsActivityLogoutButton">Logout</string>
+    <string name="settingsActivityLogoutDescription">RETURNS TO LOGIN SCREEN</string>
+    <string name="settingsActivityDefaultMapType">Normal</string>
+    <string-array name="settingsActivityMapTypes">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <string-array name="availableColors">
+        <item>Azure</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Rose</item>
+        <item>Violet</item>
+        <item>Yellow</item>
+    </string-array>
+
+
+    <string name="filterActivityFather">Father\'s Side</string>
+    <string name="filterActivityFatherDescription">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="filterActivityMother">Mother\'s Side</string>
+    <string name="filterActivityMotherDescription">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="filterActivityMale">Male Events</string>
+    <string name="filterActivityFemale">Female Events</string>
+    <string name="filterActivityGenderDescription">FILTER EVENTS BASED ON GENDER</string>
+    <string name="filterActivityEvent">_______ Events</string>
+    <string name="filterActivityEventDescription">FILTER BY _______ Events</string>
+
+
+
+</resources>

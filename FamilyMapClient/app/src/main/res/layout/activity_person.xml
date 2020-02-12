@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userinterface.PersonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personActivityFirstNameTitle" />
+
+            <TextView
+                android:id="@+id/firstNameTextView"
+                android:layout_width="327dp"
+                android:layout_height="29dp"
+                android:textSize="20sp"
+                android:title="@string/personActivityFirstNameTitle"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="76dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personActivityLastNameTitle" />
+
+            <TextView
+                android:id="@+id/lastNameTextView"
+                android:layout_width="327dp"
+                android:layout_height="29dp"
+                android:textSize="20sp"
+                android:title="@string/personActivityLastNameTitle"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="47dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personActivityGenderTitle" />
+
+            <TextView
+                android:id="@+id/genderTextView"
+                android:layout_width="327dp"
+                android:layout_height="29dp"
+                android:textSize="20sp"
+                android:title="@string/personActivityGenderTitle"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="18dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/eventRecyclerViewHeader"
+            android:text="@string/personActivityLifeEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/eventRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/personRecyclerViewHeader"
+            android:text="@string/personActivityFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/personRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="101dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userinterface.FilterActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/filterRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_column="0"
+                android:layout_rowWeight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityFather"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityFatherDescription" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/filterFatherSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_rowWeight="0.2" />
+
+        </GridLayout>
+
+        <GridLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_column="0"
+                android:layout_rowWeight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityMother"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityMotherDescription" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/filterMotherSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_rowWeight="0.2" />
+
+        </GridLayout>
+
+        <GridLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_column="0"
+                android:layout_rowWeight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityMale"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityGenderDescription" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/filterMaleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_rowWeight="0.2" />
+
+        </GridLayout>
+
+        <GridLayout
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_column="0"
+                android:layout_rowWeight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityFemale"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="0.5"
+                    android:text="@string/filterActivityGenderDescription" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/filterFemaleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_rowWeight="0.2" />
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
